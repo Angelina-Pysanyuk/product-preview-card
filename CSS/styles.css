@@ -1,0 +1,146 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-family: 'Fraunces', serif;
+  margin-top: 15px;
+  line-height: 35px;
+}
+
+h3 {
+  color: #70768F;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: lighter;
+  font-size: 12px;
+  margin-bottom: 0;
+  line-height: 25px;
+  padding-top: 15px;
+}
+
+h2 {
+  color: #3C8067;
+  font-family: 'Fraunces', serif;
+  line-height: 20px;
+  font-size: 30px;
+  margin-right: 25px;
+}
+
+p {
+  color: #70768F;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  line-height: 25px;
+}
+
+a {
+  text-decoration: none;
+  color: #3C8067;
+}
+
+a:hover {
+    background-color: white;
+}
+
+.container {
+  background-color: #F3EAE3;
+  text-align: left;
+  /* элементы по центру */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  /* элементы по центру */
+  width: auto;
+  height: 100%;
+}
+
+/* объединяем картинку и элемент с текстом */
+.wrapper-block {
+  display: flex;
+}
+/* объединяем картинку и элемент с текстом */
+
+/* всегда оборачиваем картинку */
+.images-block {
+  border-top-left-radius: 12px;
+  border-bottom-left-radius: 12px;
+  display: inline-block;
+  width: 300px;
+  position: relative;
+  overflow: hidden;
+}
+/* всегда оборачиваем картинку */
+
+img {
+  width: 100%;
+  height: 100%;
+  /* растянуть картинку на весь контейнер */
+  object-fit: cover;
+  /* растянуть картинку на весь контейнер. object-fit: contain по умолчанию */
+}
+
+.product-card-description {
+  display: inline-block;
+  background-color: white;
+  border: 1px solid;
+  border-color: white;
+  border-top-right-radius: 12px;
+  border-bottom-right-radius: 12px;
+  height: 450px;
+  padding-left: 30px;
+  padding-right: 50px;
+  padding-bottom: 2px;
+  width: 230px;
+}
+
+.price {
+  display: flex;
+}
+
+.old-price {
+  display: inline-block;
+  margin-bottom: 0;
+  margin-top: 23px;
+  text-decoration: line-through;
+}
+
+.attribution {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  /* визуально сдвигаем влево на 50% */
+  transform: translateX(-50%);
+  /* визуально сдвигаем влево на 50% */
+}
+
+.btn {
+  background-color: #3C8067;
+  border: 1px solid;
+  border-color: #3C8067;
+  border-radius: 8px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-family: 'Montserrat', sans-serif;
+  width: 180px;
+}
+
+.btn:hover {
+  background-color: #1a4031;
+}
+
+.cart-icon {
+  padding-right: 5px;
+}
+
+.attribution {
+  color: #70768F;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+}
